@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "h1": "Bosh sahifa",
+    "h2": "Xizmat",
+    "h3": "Xususiyat",
+    "h4": "Mahsulot",
+    "h5": "Sharhlar",
+    "h6": "Ko‘p so‘raladigan savollar"
+  },
+  "ourclients": {
+    "h1": "Bizning mijozlarimiz",
+    "h2": "Biz Fortune 500+ ro'yxatidagi mijozlar bilan ishlaymiz"
+  }
+  ,
+    "feature": {
+      "h1": "Butun hamjamiyatingizni bitta tizimda boshqaring",
+      "h2": "Nextcent kimlar uchun mos?"
+    },
+    "learnbtn": {
+      "h1": "Batafsil"
+      
+    },
+    
+      "statisticSection": {
+        "title": "Mahalliy biznesni qayta shakllantirishga yordam berish",
+        "highlight": "biznesni qayta shakllantirish",
+        "description": "Biz bu yergacha mehnat va fidoyiligimiz bilan yetib keldik."
+      }
+    ,
+    "additionalBlog": {
+      "title": "G'amxo'rlik — yangi marketing",
+      "description": "Nexcent blogi a'zolik haqidagi eng so‘nggi yangiliklar, tendensiyalar va boshqalarni o‘qish uchun eng yaxshi joydir. Kimlar hamjamiyatimizga qo‘shilayotgani, a'zolik daromadlarini qanday oshirayotgani haqida o'qing va ko'proq bilib oling.",
+      "readmore": "Batafsil o'qish"
+    },
+
+    "getdemo":{
+      "title":"demo olish"
+    },
+
+    "footer": {
+      "company": "Kompaniya",
+      "about_us": "Haqimizda",
+      "blog": "Blog",
+      "contact_us": "Biz bilan bog‘lanish",
+      "pricing": "Narxlar",
+      "testimonials": "Fikrlar",
+      "support": "Yordam",
+      "help_center": "Yordam markazi",
+      "terms_of_service": "Xizmat shartlari",
+      "legal": "Huquqiy",
+      "privacy_policy": "Maxfiylik siyosati",
+      "status": "Holat",
+      "stay_up_to_date": "Yangiliklardan xabardor bo‘ling",
+      "email_placeholder": "Elektron pochta manzilingiz"
+    
+    
+  
+  
+}
+
+}

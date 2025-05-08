@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "h1": "Home",
+    "h2": "Service",
+    "h3": "Feature",
+    "h4": "Product",
+    "h5": "Testimonial",
+    "h6": "FAQ"
+  },
+
+  "ourclients": {
+    "h1": "Our Clients",
+    "h2": "We have been working with some Fortune 500+ clients"
+  },
+
+  "feature": {
+    "h1": "Manage your entire community in a single system",
+    "h2": "Who is Nextcent suitable for?"
+  },
+  "learnbtn": {
+    "h1": "learn more"
+  },
+
+  "statisticSection": {
+    "title": "Helping a local business reinvent itself",
+    "highlight": "business reinvent itself",
+    "description": "We reached here with our hard work and dedication."
+  }
+  ,
+
+  
+    "additionalBlog": {
+      "title": "Caring is the new marketing",
+      "description": "The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lots more.",
+      "readmore": "Read more"
+    },
+  
+    "getdemo":{
+      "title":"get a demo "
+    },
+
+    "footer": {
+    "company": "Company",
+    "about_us": "About us",
+    "blog": "Blog",
+    "contact_us": "Contact us",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "support": "Support",
+    "help_center": "Help center",
+    "terms_of_service": "Terms of service",
+    "legal": "Legal",
+    "privacy_policy": "Privacy policy",
+    "status": "Status",
+    "stay_up_to_date": "Stay up to date",
+    "email_placeholder": "Your email address"
+  }
+  
+}

@@ -1,0 +1,312 @@
+{
+  "HeroSection": [
+    {
+      "id": 1,
+      "title": {
+        "en": "Lessons and insights from 8 years",
+        "ru": "Уроки и идеи за 8 лет",
+        "uz": "Sakkiz yillik saboqlar va tajribalar"
+      },
+      "description": {
+        "en": "Where to grow your business as a photographer: site or social media?",
+        "ru": "Куда развивать свой бизнес фотографа: сайт или социальные сети?",
+        "uz": "Fotosuratchi sifatida biznesingizni qayerda rivojlantirasiz: saytmi yoki ijtimoiy tarmoqda?"
+      },
+      "img": "/Images/Illustration.png"
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Discover new opportunities with us",
+        "ru": "Откройте новые возможности с нами",
+        "uz": "Biz bilan yangi imkoniyatlarni kashf eting"
+      },
+      "description": {
+        "en": "Let’s help you take your photography business to the next level!",
+        "ru": "Поможем вывести ваш бизнес в фотографии на новый уровень!",
+        "uz": "Fotosurat biznesingizni keyingi bosqichga olib chiqishga yordam beramiz!"
+      },
+      "img": "/Images/Illustration.png"
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Build your brand stronger",
+        "ru": "Стройте свой бренд сильнее",
+        "uz": "Brendingizni yanada kuchaytiring"
+      },
+      "description": {
+        "en": "Learn the secrets of growing your photography audience online.",
+        "ru": "Узнайте секреты увеличения вашей онлайн-аудитории фотографов.",
+        "uz": "Fotosuratlaringiz auditoriyasini onlayn kengaytirish sirlarini bilib oling."
+      },
+      "img": "/Images/Illustration.png"
+    }
+  ],
+
+  "OurClients": [
+    {
+      "id": 1,
+      "img": "/Icons/Logo (19).png",
+      "alt": "logo2"
+    },
+    {
+      "id": 2,
+      "img": "/Icons/Logo (20).png",
+      "alt": "logo3"
+    },
+    {
+      "id": 3,
+      "img": "/Icons/Logo (21).png",
+      "alt": "logo4"
+    },
+    {
+      "id": 4,
+      "img": "/Icons/Logo (22).png",
+      "alt": "logo5"
+    },
+    {
+      "id": 5,
+      "img": "/Icons/Logo (23).png",
+      "alt": "logo6"
+    },
+    {
+      "id": 6,
+      "img": "/Icons/Logo (24).png",
+      "alt": "logo7"
+    },
+    {
+      "id": 7,
+      "img": "/Icons/Logo (25).png",
+      "alt": "logo8"
+    }
+  ],
+
+  "FeaturesSection": [
+    {
+      "id": 1,
+      "img": "/Icons/Icon (7).png",
+      "title1": {
+        "en": "Membership",
+        "ru": "Членство",
+        "uz": "A'zolik"
+      },
+      "title2": {
+        "en": "Organisations",
+        "ru": "Организации",
+        "uz": "Tashkilotlar"
+      },
+      "description": {
+        "en": "Our membership management software provides full automation of membership renewals and payments.",
+        "ru": "Наше программное обеспечение для управления членством предоставляет полную автоматизацию продления членства и платежей.",
+        "uz": "Bizning a'zo boshqaruvi dasturimiz a'zolikni yangilash va to'lovlarni to'liq avtomatlashtiradi."
+      }
+    },
+    {
+      "id": 2,
+      "img": "/Icons/Icon (8).png",
+      "title1": {
+        "en": "National",
+        "ru": "Национальные",
+        "uz": "Milliy"
+      },
+      "title2": {
+        "en": "Associations",
+        "ru": "Ассоциации",
+        "uz": "Assotsiatsiyalar"
+      },
+      "description": {
+        "en": "Our membership management software provides full automation of membership renewals and payments.",
+        "ru": "Наше программное обеспечение для управления членством предоставляет полную автоматизацию продления членства и платежей.",
+        "uz": "Bizning a'zo boshqaruvi dasturimiz a'zolikni yangilash va to'lovlarni to'liq avtomatlashtiradi."
+      }
+    },
+    {
+      "id": 3,
+      "img": "/Icons/Icon (9).png",
+      "title1": {
+        "en": "Clubs",
+        "ru": "Клубы",
+        "uz": "Klublar"
+      },
+      "title2": {
+        "en": "And Groups",
+        "ru": "И группы",
+        "uz": "Va Guruhlar"
+      },
+      "description": {
+        "en": "Our membership management software provides full automation of membership renewals and payments.",
+        "ru": "Наше программное обеспечение для управления членством предоставляет полную автоматизацию продления членства и платежей.",
+        "uz": "Bizning a'zo boshqaruvi dasturimiz a'zolikni yangilash va to'lovlarni to'liq avtomatlashtiradi."
+      }
+    }
+  ],
+
+  "buttons": {
+    "learn_more": {
+      "en": "Learn More",
+      "ru": "Узнать больше",
+      "uz": "Batafsil"
+    }
+  },
+  "CaseStudysection": [
+    {
+      "id": 1,
+      "image": "/Images/Frame 35.png",
+      "titlePart1": {
+        "en": "The unseen of spending three",
+        "ru": "Невидимое время, проведенное три",
+        "uz": "Uch yilni Pixelgrade’da o'tkazishning ko‘rinmas tomonlari"
+      },
+      "titlePart2": {
+        "en": "years at Pixelgrade",
+        "ru": "года в Pixelgrade",
+        "uz": "Pixelgrade’da o'tkazilgan yillar"
+      },
+      "description": {
+        "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla.",
+        "ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla.",
+        "uz": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla."
+      }
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "icon": "/Icons/Icon (10).png",
+      "number": "2,245,341",
+      "label": {
+        "en": "Members",
+        "uz": "A'zolar",
+        "ru": "Участники"
+      }
+    },
+    {
+      "id": 2,
+      "icon": "/Icons/Icon (12).png",
+      "number": "46,328",
+      "label": {
+        "en": "Clubs",
+        "uz": "Klublar",
+        "ru": "Клубы"
+      }
+    },
+    {
+      "id": 3,
+      "icon": "/Icons/Icon (11).png",
+      "number": "828,867",
+      "label": {
+        "en": "Event Bookings",
+        "uz": "Tadbir bronlari",
+        "ru": "Бронирования мероприятий"
+      }
+    },
+    {
+      "id": 4,
+      "icon": "/Icons/Icon (13).png",
+      "number": "1,926,436",
+      "label": {
+        "en": "Payments",
+        "uz": "Toʻlovlar",
+        "ru": "Платежи"
+      }
+    }
+  ],
+  "blogSection": [
+    {
+      "image": "../public/Images/pana.png",
+      "title": {
+        "en": "How to design your site footer like we did",
+        "uz": "Saytingiz pastki qismini biz kabi qanday loyihalash mumkin",
+        "ru": "Как оформить нижний колонтитул сайта, как мы это сделали"
+      },
+      "description": {
+        "en": "Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.",
+        "uz": "Erosda to'g'ri ishlov berilgan. O'sish va harakatlanish uchun resurslar. Zamonaviy paytda, notekis tizimlarda massani farqlash, ammo maxsus joylarda o'zgarish sodir bo'ladi. Erosda erkin harakatlanish uchun sharoit yaratilgan. Hayotdagi sharoitlarda maxsus joylarda o'zgarish sodir bo'ladi. Transport vositalari uchun qulaylik yaratish. Harakatlarning asosi. Boshlang'ich o'sish holatida ultratizimlarga ehtiyoj seziladi, ammo har xil tizimlarga moslashish kerak. Harakatdagi asosiysi – samarali resurslardan foydalanish. Yaxshi natijalarga erishish uchun tizimli o'zgarishlar kerak.",
+        "ru": "Сделайте правильную обработку на эросе. Обеспечьте рост и движение ресурсов. В современное время различайте массу в неравномерных системах, но происходят изменения в специализированных местах. Создайте условия для свободного передвижения на эросе. В жизненных условиях происходят изменения в специализированных местах. Создайте удобство для транспортных средств. Основы движения. В начальном состоянии роста возникает потребность в ультра системах, но необходимо адаптироваться к различным системам. Основное в движении — использование эффективных ресурсов. Для достижения хороших результатов необходимы системные изменения."
+      }
+    }
+  ],
+ 
+  
+    "AdditionalBlog": [
+      {
+        "image": "/Images/image 18.png",
+        "alt": {
+          "en": "Streamlined Safeguarding",
+          "uz": "Soddalashtirilgan himoya jarayoni",
+          "ru": "Оптимизированная защита"
+        },
+        "heading": {
+          "en": "Creating Streamlined Safeguarding Processes with OneRen",
+          "uz": "OneRen bilan soddalashtirilgan himoya jarayonlarini yaratish",
+          "ru": "Создание оптимизированных процессов защиты с OneRen"
+        },
+        "buttonIcon": "/Icons/Right.png"
+      },
+      {
+        "image": "/Images/image 19.png",
+        "alt": {
+          "en": "Safeguarding Responsibilities",
+          "uz": "Himoya qilish mas'uliyatlari",
+          "ru": "Ответственность за защиту"
+        },
+        "heading": {
+          "en": "What are your safeguarding responsibilities and how can you manage them?",
+          "uz": "Himoya qilish bo'yicha mas'uliyatlaringiz nimalar va ularni qanday boshqarish mumkin?",
+          "ru": "Каковы ваши обязанности по обеспечению безопасности и как их управлять?"
+        },
+        "buttonIcon": "/Icons/Right.png"
+      },
+      {
+        "image": "/Images/image 20.png",
+        "alt": {
+          "en": "Membership Model",
+          "uz": "A'zolik modeli",
+          "ru": "Модель членства"
+        },
+        "heading": {
+          "en": "Revamping the Membership Model with Triathlon Australia",
+          "uz": "Triathlon Australia bilan a'zolik modelini yangilash",
+          "ru": "Обновление модели членства с Triathlon Australia"
+        },
+        "buttonIcon": "/Icons/Right.png"
+      }
+    ]
+  ,
+  
+
+  
+    "partners": [
+      {
+        "id": 1,
+        "image": "/Images/image 9.png",
+        "description": {
+          "en": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ulx quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.",
+          "uz": "Maecenas dignissim justo hech qanday muammo va to'siqlarsiz. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ulx quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.",
+          "ru": "Maecenas dignissim justo означает достижение великолепных результатов. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ulx quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna."
+        },
+        "name": {
+          "en": "Tim Smith",
+          "uz": "Tim Smit",
+          "ru": "Тим Смит"
+        },
+        "organization": {
+          "en": "British Dragon Boat Racing Association",
+          "uz": "Britaniya Ajdaho Qayiq Poygasi Assotsiatsiyasi",
+          "ru": "Британская ассоциация гонок на драконьих лодках"
+        },
+        "logos": [
+          "/Icons/Logo (26).png",
+          "/Icons/Logo (27).png",
+          "/Icons/Logo (28).png",
+          "/Icons/Logo (29).png",
+          "/Icons/Logo (30).png",
+          "/Icons/Logo (31).png"
+        ],
+        "rightIcon": "/Icons/Right.png"
+      }
+    ]
+  }
+  
+
