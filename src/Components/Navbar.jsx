@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link } from 'react-scroll'; 
-import LanguageSwitcher from "../Components/LanguageSwitcher";  
+import { Link } from "react-scroll";
+import LanguageSwitcher from "../Components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import icon1 from "../../public/Icons/Logo (18).png";
 
 function Navbar() {
@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-30">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-        
+
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img src={icon1} alt="Logo" className="w-[100px] h-auto" />
@@ -37,22 +37,94 @@ function Navbar() {
           </button>
         </div>
 
-        
-        <ul className={`sm:flex gap-8 font-medium text-gray-700 absolute sm:static top-16 left-0 w-full sm:w-auto bg-white sm:bg-transparent sm:flex-row items-start sm:items-center px-6 sm:px-0 transition-all duration-300 ${menuOpen ? "flex" : "hidden"}`}>
-          <div className="sm:flex flex-col sm:flex-row gap-8 w-full sm:w-auto cursor-pointer">
-            <li><Link to="hero" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h1')}</Link></li>
-            <li><Link to="statistics" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h2')}</Link></li>
-            <li><Link to="features" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h3')}</Link></li>
-            <li><Link to="blog" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h4')}</Link></li>
-            <li><Link to="additional-blog" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h5')}</Link></li>
-            <li><Link to="case-study" smooth={true} duration={200} onClick={() => setMenuOpen(false)}>{t('navbar.h6')}</Link></li>
-          </div>
+        {/* Menu Items */}
+        <ul className={`font-medium text-gray-700 absolute sm:static top-16 left-0 w-full sm:w-auto bg-white sm:bg-transparent 
+                        flex-col sm:flex-row sm:flex gap-4  px-6 sm:px-0 transition-all duration-300 
+                        ${menuOpen ? "flex" : "hidden"}`}>
 
-          
-          <div className="flex flex-col gap-2 mt-4 w-full sm:hidden">
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="hero"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h1')}</span>
+              <span className="absolute bottom-1 left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="statistics"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h2')}</span>
+              <span className="absolute bottom-1 left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="features"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h3')}</span>
+              <span className="absolute bottom-1 left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="blog"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h4')}</span>
+              <span className="absolute bottom-1 left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="additional-blog"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h5')}</span>
+              <span className="absolute bottom-1 left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          <li className="w-full sm:w-auto group">
+            <Link
+              to="case-study"
+              smooth={true}
+              duration={200}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 px-3 rounded-md hover:text-green-600 transition-all duration-300 relative"
+            >
+              <span className="relative z-10">{t('navbar.h6')}</span>
+              <span className="absolute bottom-1   left-0 w-0 group-hover:w-full h-[2px] bg-green-500 transition-all duration-300"></span>
+            </Link>
+          </li>
+
+          {/* Mobile: Auth */}
+          <li className="flex flex-col gap-2 mt-4 w-full sm:hidden">
             <SignedOut>
               <SignInButton mode="modal">
-                <button className="px-5 py-2 text-green-500 bg-slate-100 font-normal rounded-[6px] hover:bg-slate-200 transition-all duration-300 w-full">
+                <button className="px-5 py-2 text-green-600 bg-slate-200 font-normal rounded-md hover:bg-slate-200 transition-all duration-300x  w-full">
                   Login
                 </button>
               </SignInButton>
@@ -61,16 +133,16 @@ function Navbar() {
             <SignedIn>
               <UserButton afterSignOutUrl="/" />
             </SignedIn>
-          </div>
+          </li>
         </ul>
 
-        
-        <div className="hidden sm:flex items-center gap-4">
+        {/* Desktop: Lang + Auth */}
+        <div className="hidden sm:flex items-center gap-4 ">
           <LanguageSwitcher />
 
           <SignedOut>
             <SignInButton mode="modal">
-              <button className="px-5 py-2 font-normal rounded-[6px] bg-green-500 text-white hover:bg-green-600 transition-all duration-300">
+              <button className="px-5 py-2 font-normal rounded-md bg-green-500 hover:bg-transparent text-white hover:text-green-500 border-2 border-green-500 transition-all duration-300">
                 Sign up
               </button>
             </SignInButton>

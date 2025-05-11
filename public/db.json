@@ -43,45 +43,53 @@
       "img": "/Images/Illustration.png"
     }
   ],
-
-  "OurClients": [
-    {
-      "id": 1,
-      "img": "/Icons/Logo (19).png",
-      "alt": "logo2"
-    },
-    {
-      "id": 2,
-      "img": "/Icons/Logo (20).png",
-      "alt": "logo3"
-    },
-    {
-      "id": 3,
-      "img": "/Icons/Logo (21).png",
-      "alt": "logo4"
-    },
-    {
-      "id": 4,
-      "img": "/Icons/Logo (22).png",
-      "alt": "logo5"
-    },
-    {
-      "id": 5,
-      "img": "/Icons/Logo (23).png",
-      "alt": "logo6"
-    },
-    {
-      "id": 6,
-      "img": "/Icons/Logo (24).png",
-      "alt": "logo7"
-    },
-    {
-      "id": 7,
-      "img": "/Icons/Logo (25).png",
-      "alt": "logo8"
-    }
-  ],
-
+  
+    "OurClients": [
+      {
+        "id": 1,
+        "img": "/Icons/Logo (19).png",
+        "alt": "logo2",
+        "link": "https://www.google.com"
+      },
+      {
+        "id": 2,
+        "img": "/Icons/Logo (20).png",
+        "alt": "logo3",
+        "link": "https://www.microsoft.com"
+      },
+      {
+        "id": 3,
+        "img": "/Icons/Logo (21).png",
+        "alt": "logo4",
+        "link": "https://www.apple.com"
+      },
+      {
+        "id": 4,
+        "img": "/Icons/Logo (22).png",
+        "alt": "logo5",
+        "link": "https://www.amazon.com"
+      },
+      {
+        "id": 5,
+        "img": "/Icons/Logo (23).png",
+        "alt": "logo6",
+        "link": "https://www.netflix.com"
+      },
+      {
+        "id": 6,
+        "img": "/Icons/Logo (24).png",
+        "alt": "logo7",
+        "link": "https://www.linkedin.com"
+      },
+      {
+        "id": 7,
+        "img": "/Icons/Logo (25).png",
+        "alt": "logo8",
+        "link": "https://www.spotify.com"
+      }
+    ]
+  ,
+  
   "FeaturesSection": [
     {
       "id": 1,
@@ -275,8 +283,6 @@
     ]
   ,
   
-
-  
     "partners": [
       {
         "id": 1,
@@ -297,16 +303,40 @@
           "ru": "Британская ассоциация гонок на драконьих лодках"
         },
         "logos": [
-          "/Icons/Logo (26).png",
-          "/Icons/Logo (27).png",
-          "/Icons/Logo (28).png",
-          "/Icons/Logo (29).png",
-          "/Icons/Logo (30).png",
-          "/Icons/Logo (31).png"
+          {
+            "src": "/Icons/Logo (26).png",
+            "link": "https://www.google.com"
+          },
+          {
+            "src": "/Icons/Logo (27).png",
+            "link": "https://www.microsoft.com"
+          },
+          {
+            "src": "/Icons/Logo (28).png",
+            "link": "https://www.apple.com"
+          },
+          {
+            "src": "/Icons/Logo (29).png",
+            "link": "https://www.amazon.com"
+          },
+          {
+            "src": "/Icons/Logo (30).png",
+            "link": "https://www.linkedin.com"
+          },
+          {
+            "src": "/Icons/Logo (31).png",
+            "link": "https://www.spotify.com"
+          }
         ],
-        "rightIcon": "/Icons/Right.png"
+        "rightIcon": "/Icons/Right.png",
+        "ctaLink": "https://www.hubspot.com/customers"
       }
     ]
   }
+  
+  
+  
+  
+  
   
 

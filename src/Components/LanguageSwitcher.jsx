@@ -28,7 +28,7 @@ const LanguageSwitcher = () => {
 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none hover:bg-gray-200 transition-all"
+        className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-transparent hover:text-green-500 border-2 border-green-500 transition-all duration-300"
         aria-label="Tilni tanlash"
       >
         <span className="font-medium">

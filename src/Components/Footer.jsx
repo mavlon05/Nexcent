@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 import next from "../../public/Images/Logo.png";
 import instagram from "../../public/Images/Instagram.png";
 import Browser from "../../public/Images/browser.png";
@@ -7,11 +8,28 @@ import Youtube from "../../public/Icons2/Youtube.png";
 import send from "../../public/Images/send.png";
 
 function Footer() {
-  const { t } = useTranslation(); // i18n kutubxonasini chaqirish
+  const { t } = useTranslation();
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isError, setIsError] = useState(false);
+
+  const handleEmailSubmit = () => {
+    if (email.trim() && email.includes("@") && email.includes(".")) {
+      setMessage("Email submitted successfully!");
+      setIsError(false);
+      setTimeout(() => setMessage(""), 3000);
+      setEmail("");
+    } else {
+      setMessage("Invalid email address");
+      setIsError(true);
+      setTimeout(() => setMessage(""), 3000);
+    }
+  };
 
   return (
     <footer className="bg-slate-900 absolute left-0 w-full z-30 px-6 md:px-10 py-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-center md:justify-between gap-10">
+        
         {/* Logo va matn */}
         <div className="flex flex-col gap-4 items-center md:items-start">
           <img className="w-[137px] h-[25px]" src={next} alt="Nexcent logo" />
@@ -20,26 +38,14 @@ function Footer() {
             All rights reserved
           </p>
           <div className="flex gap-4 mt-4 justify-center md:justify-start">
-            <img
-              className="w-8 h-8 hover:opacity-80 transition-all cursor-pointer"
-              src={instagram}
-              alt="Instagram"
-            />
-            <img
-              className="w-8 h-8 hover:opacity-80 transition-all cursor-pointer"
-              src={Browser}
-              alt="Browser"
-            />
-            <img
-              className="w-8 h-8 hover:opacity-80 transition-all cursor-pointer"
-              src={Twitwer}
-              alt="Twitter"
-            />
-            <img
-              className="w-8 h-8 hover:opacity-80 transition-all cursor-pointer"
-              src={Youtube}
-              alt="YouTube"
-            />
+            {[instagram, Browser, Twitwer, Youtube].map((icon, index) => (
+              <img
+                key={index}
+                className="w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-1 hover:rotate-6 hover:brightness-150"
+                src={icon}
+                alt={`icon-${index}`}
+              />
+            ))}
           </div>
         </div>
 
@@ -67,22 +73,30 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Stay up to date */}
+        {/* Email form */}
         <div className="flex flex-col gap-4 w-full md:w-auto items-center md:items-start">
           <h1 className="font-semibold text-xl text-white">{t("footer.stay_up_to_date")}</h1>
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4 w-full">
             <div className="relative w-full sm:w-[255px]">
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder={t("footer.email_placeholder")}
                 className="w-full h-10 pl-4 pr-12 bg-slate-600 rounded-md text-white placeholder-white focus:outline-none"
               />
               <img
                 src={send}
                 alt="Send"
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 w-6 h-6 cursor-pointer"
+                onClick={handleEmailSubmit}
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 w-6 h-6 cursor-pointer hover:scale-110 transition-all"
               />
             </div>
+            {message && (
+              <span className={`text-sm mt-1 ${isError ? "text-red-400" : "text-green-400"}`}>
+                {message}
+              </span>
+            )}
           </div>
         </div>
       </div>
