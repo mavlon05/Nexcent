@@ -222,7 +222,8 @@
   ],
   "blogSection": [
     {
-      "image": "../public/Images/pana.png",
+     "image": "/Images/pana.png",
+
       "title": {
         "en": "How to design your site footer like we did",
         "uz": "Saytingiz pastki qismini biz kabi qanday loyihalash mumkin",
