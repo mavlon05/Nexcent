@@ -8,7 +8,7 @@ function StatisticSection() {
   const { t, i18n } = useTranslation();
 
   const [ref, inView] = useInView({
-    triggerOnce: false,  // Har gal ko‘ringanda qayta ishga tushadi
+    triggerOnce: false,  
     threshold: 0.3
   });
 
