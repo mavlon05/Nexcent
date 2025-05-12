@@ -12,7 +12,7 @@ const LanguageSwitcher = () => {
     setIsOpen(false);
   };
 
-  // Tashqariga bosish (Outside Click)ni aniqlash
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (!event.target.closest('.language-switcher')) {
