@@ -13,12 +13,12 @@ function Navbar() {
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-30">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-        {/* Logo */}
+      
         <div className="flex items-center gap-2">
           <img src={icon1} alt="Logo" className="w-[100px] h-auto" />
         </div>
 
-        {/* Mobile Menu Button */}
+    
         <div className="flex items-center gap-4 sm:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-800 focus:outline-none">
             <svg
@@ -37,7 +37,7 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Menu Items */}
+  
         <ul className={`font-medium text-gray-700 absolute sm:static top-16 left-0 w-full sm:w-auto bg-white sm:bg-transparent 
                         flex-col sm:flex-row sm:flex gap-4  px-6 sm:px-0 transition-all duration-300 
                         ${menuOpen ? "flex" : "hidden"}`}>
@@ -120,7 +120,7 @@ function Navbar() {
             </Link>
           </li>
 
-          {/* Mobile: Auth */}
+        
           <li className="flex flex-col gap-2 mt-4 w-full sm:hidden">
             <SignedOut>
               <SignInButton mode="modal">
@@ -136,7 +136,7 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Desktop: Lang + Auth */}
+        
         <div className="hidden sm:flex items-center gap-4 ">
           <LanguageSwitcher />
 
